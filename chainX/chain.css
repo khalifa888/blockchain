@@ -1,0 +1,65 @@
+html,body {
+    font-family: 'Raleway', sans-serif;
+   /* padding: 1em 2em;
+    font-size: 18px;*/
+    background: #222;
+    color: #aaa;
+  }
+  @keyframes anim {
+    0%{opacity: 0.5;}
+    100%{opacity: 1;}
+  }
+.livediv{
+    background: yellowgreen;
+    float: right;
+    position: relative;
+    top: -50px;
+    padding: 2px;
+    border-radius: 10px;
+    color: #f2f2f2;
+}
+  .live{background: green;
+       display: inline-block;
+       width: 10px;
+       height: 10px;
+       border-radius: 50%;
+       animation: anim 1s infinite;
+    }
+  .searchdiv{display: flex;
+        justify-content: center;
+        padding: 5px;
+        border: 1px solid rgb(44, 43, 43);
+        border-radius: 5px;
+        box-shadow: 0px 0px 18px -1px rgb(44, 43, 43);
+        }
+  .checkdiv input{
+        outline: none;
+        padding:10px;
+        background: transparent;
+        border: none;
+        color: #aaa;
+}
+  input[type="submit"]{
+      position: relative;
+      right: 5px;
+      color: #aaa;
+  }
+.project{ margin-top: 15px;
+    padding: 5px;
+   border: 1px solid rgb(44, 43, 43);
+    border-radius: 5px;
+     box-shadow: 0px 0px 18px -1px rgb(44, 43, 43);
+   }
+.prot{ font-size: 1.5em;
+    padding: 5px;
+    color: yellowgreen;
+    text-align: center;
+    }
+    hr{
+        color: rgb(44, 43, 43);
+        opacity: 0.1;
+    }
+#price, #tps, #trn, .livediv{font-size: small;
+                   font-family: monospace;
+                   }
+    #trn{word-wrap: break-word;}

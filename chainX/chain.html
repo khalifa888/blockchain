@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <link rel="icon" type="image/x-icon" href="../logo.png">
+    <link rel="stylesheet" href="chain.css">
+    <title>Mai Anguwa Chain | Scan</title>
+</head>
+<body>
+    <h2>Mai Anguwa Chain</h2>
+    <div class="livediv"> live <span class="live"></span></div>
+   <div class="searchdiv checkdiv">
+       <input type="text" id="input" placeholder="Past MCC Wallet ID"><input value="Check" onclick="walletcheck()" type="submit">
+   </div>
+    <div class="project">
+        <div class="prot">Basic</div>
+        <hr>
+        <ul>
+          <div>
+              <div>
+                <span class="bdl">Price </span><span id="price">000</span>
+              </div>
+              <br>
+              <div>
+                <span>TPS </span><span id="tps">000</span>
+              </div>
+          </div>
+    </div>
+    <div class="project">
+        <div class="prot">Current Transaction</div>
+        <hr>
+        <div id="trn">
+        92b10ad8693bd7f8fe0143d7f8fe014392b10ad8693b1f53f5b1121182a07b26700f9f22c14d4c01522c14d4c0152a07b26700f9f1c02b8cf9e452
+        </div>
+    </div>
+   <script src="chain.js"></script>
+</body>
+</html>

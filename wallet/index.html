@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../logo.png">
+    <title>Mai Anguwa Chain | Native Wallet</title>
+    <style type="text/css">
+    body{background: url(bg.png);
+        background-size: 300% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family:monospace;
+        text-align:center;
+    }
+    h1{font-size:3em;}
+    h2{font-size:2em;}
+    img{max-width:90%;}
+    
+    #hashspan, textarea{display: inline-block;
+    width:70%;
+    height:150px;
+    padding:5px;
+    border:1px solid #999999;
+    border-radius:4px;
+    outline:none;
+    word-wrap: break-word;
+    }
+    #hashspan, #importdiv, small{display:none;}
+ #main{position:relative;
+  bottom: 20%;}
+  button{
+   width:80%;
+   padding: 10px;
+   color: #0f0;
+   background: tranparent;
+   border: 1px solid #0f0;
+   border-radius:5px;
+   outline: none;
+   display: block;
+   margin: auto;
+   }
+   #import, small{color:red;}
+   #create, #importbtn{background: #000;
+          color:#0f0;
+          } 
+   #create:hover, #importbtn:hover{opacity: .5;}
+   #waid{display: inline-block;
+        padding: 5px;
+        border-radius: 2px;
+        border: 1px solid #aaa;
+        }
+   #blndiv{display: none;
+          width:85%;
+          margin: auto;
+          padding:5px;
+          border: 1px solid #aaa;
+          }
+    #blndiv input, button{
+        padding: 5px;
+        outline: none;
+        width: 150px;
+    }
+    #blndiv button{
+        background: #000;
+        color: #aaa;
+    }
+    </style>
+</head>
+<body>
+   <h1> Mai-Anguwa Chain</h1>
+   <h2>Wallet</h2>
+   <img src="img.png">
+   <div>
+    <span id="hashspan" class="hashimport"></span>
+    <small>Copy the above private key and click Import Wallet to access your wallet.</small>
+    <div id="importdiv">
+     <textarea placeholder="Past private key here!" id="privateKey"></textarea>
+     <button id="importbtn">Import Wallet</button>
+    </div>
+    
+   </div>
+   
+   <div id="main">
+   <button id="import">Import Wallet</button>
+  <br>
+   <button id="create">Create Wallet</button>
+  </div>
+  
+  <div id="blndiv">
+      <span id="waid">x0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+      <div id="blndivi">
+        <span>value </span>
+        <span id="balance">xxx</span>
+      </div>
+      <input type="number" placeholder="Enter Amount"><br><br>
+      <input type="text" placeholder="Enter Reciept Address"><br><br>
+      <button>send</button>
+  </div>
+  <script src="jquery-3.6.1.js"></script>
+  <script src="jquery.js"></script>
+  <script src="id.js" type="text/javascript"></script>
+  </body>
+</html>

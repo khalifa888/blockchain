@@ -1,0 +1,29 @@
+
+Mai Anguwa blockchain is a permissionless, distributed ledger with lists of records (blocks) that are securely linked together via cryptographic hashes. MAA is the native token in Mai Anguwa Chain.
+Mai Anguwa Chain is based on PoV consensus algorithm, meaning that once the miner visit the chain it will keep operating.
+
+In normal financial system e.g banks, server is used to handle users requests making it vulnerable to attack e.g DDoS. Mai Anguwa Chain is serverless and driven by miners meaning that no attack is effective on the Chain.
+
+User tries to carry out transaction, miner validates the transaction and add it to the chain, the recipient wallet receives the value.
+
+Mining is the process used to secure, verify transactions and add MMT coin transaction data to the Mai Anguwa's global public ledger and create new MAA coins by solving extremely complicated math problems. When a MAA Coin is successfully mined, the miner receives a predetermined amount of MAA.
+
+People who are involved in the process of mining are known as miners. Miners help keep the chain active to carry out transaction making the chain miners-driven.
+
+Team / Developer
+
+Mai Anguwa Chain is developed by Nigerian Javascript Developer Khalifa, living in Nguru.
+
+Access the System Through the following:
+
+Create Wallet
+
+https://wallet.maianguwa.chain
+
+Become A Miner
+
+https://miner.maianguwa.chain
+
+Access Mai Anguwa Chain Scan
+
+https://explorer.maianguwa.chain
